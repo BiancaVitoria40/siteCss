@@ -1,0 +1,910 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Anton&family=Spectral:wght@200&family=Stint+Ultra+Expanded&family=Work+Sans:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Spectral:wght@200&family=Stint+Ultra+Expanded&family=Work+Sans:wght@600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.menu_navegacao {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.nomeEmpresa{
+    display: flex;
+    margin-top: 2px;
+    position: relative;
+    width: 10%;
+    margin-left: 40px;
+
+}
+
+.nomeEmpresa p{
+    position: relative;
+    margin-left: 10px;
+    height: 10px;
+    margin-top: 5px;
+    color: rgb(109, 109, 109);
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+  
+   
+
+}
+
+.meio{
+    position: relative;
+    width: 30%;
+    margin: auto;
+}
+
+ 
+
+ul, li{
+
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 15px;
+    color: rgb(109, 109, 109);
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+
+
+}
+
+ 
+
+.Botao {
+        margin-top: 5px;
+        background-color: rgb(142,36,36);
+        color: white;
+        font-size: 16px;
+        padding: 5px 5px;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Almarai', sans-serif;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Spectral', serif;
+        font-family: 'Stint Ultra Expanded', serif;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 13px;
+        cursor: pointer;
+
+}
+
+
+
+.sobre{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.sobre p{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(142,36,36);
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+   
+}
+
+.introdução1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+}
+
+.introdução1 p{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+
+}
+
+.introduçãoTexto{
+    display: flex;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 30px;
+
+}
+
+.introduçãoTexto p{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+#topicos{
+    display: flex;
+    margin: auto;
+    width: 82%;
+    margin-top: 85px;
+    
+}
+
+.Projetos{
+    margin-left: 80px;
+    
+
+}
+
+
+.Projetos h2{
+    color: rgb(142,36,36);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+
+.Projetos p{
+    width: 115%;
+    display: flex;
+    margin-top: 15px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    
+    
+}
+
+.Projetos h3{
+    width: 115%;
+    display: flex;
+    margin-top: 15px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+.Colaboradores{
+    margin-left: 90px;    
+    
+}
+
+.Colaboradores h2{
+    color: rgb(142,36,36);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+
+.Colaboradores p{
+    width: 80%;
+    display: flex;
+    margin-top: 15px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    
+    
+}
+
+
+.Colaboradores h2{
+    color: rgb(142,36,36);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+
+.Colaboradores h3{
+    width: 115%;
+    display: flex;
+    margin-top: 15px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+.Downloads{
+    margin-left: 10px;   
+    
+}
+
+
+.Downloads h2{
+    color: rgb(142,36,36);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+
+.Downloads p{
+    width: 70%;
+    display: flex;
+    margin-top: 15px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    
+}
+
+.Downloads h3{
+    width: 115%;
+    display: flex;
+    margin-top: 15px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+.Reviews{
+    margin-left: 10px;
+       
+}
+
+.Reviews h2{
+    color: rgb(142,36,36);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+
+.Reviews p{
+    width: 80%;
+    display: flex;
+    margin-top: 15px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+}
+
+.Reviews h3{
+    width: 115%;
+    display: flex;
+    margin-top: 15px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+#v{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 85px;
+    
+}
+
+
+.vagas{
+    margin-top: 75px;
+    background-color: rgb(233, 205, 205);
+    color: rgb(142,36,36);
+    font-size: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+.vagasTexto{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+}
+
+.vagasTexto p{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+
+}
+
+.vagasTexto2{
+    display: flex;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
+
+}
+
+.vagasTexto2 p{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.pessoas{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    justify-content: center;
+
+}
+
+.info{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 80px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+#Product{
+    display: flex;
+    margin: auto;
+    margin-left: 465px;
+    margin-top: 25px;
+    
+}
+
+
+.pDesign{
+    color: white;  
+    width: 55%;     
+    height: 75px;     
+    padding: 10px 20px;       
+    border: 1px solid #939393; 
+    border-radius: 12px;       
+    cursor: pointer; 
+
+}
+
+.pDesign h2{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.pDesign p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+#ux{
+    display: flex;
+    margin: auto;
+    margin-left: 465px;
+    margin-top: 25px;
+    
+}
+
+.uxDesign{
+    color: white;  
+    width: 55%;     
+    height: 75px;     
+    padding: 10px 20px;       
+    border: 1px solid #939393; 
+    border-radius: 12px;       
+    cursor: pointer; 
+
+}
+
+.uxDesign h2{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.uxDesign p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.info2{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 80px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+#devIos{
+    display: flex;
+    margin: auto;
+    margin-left: 465px;
+    margin-top: 25px;
+    
+}
+
+.ios{
+    color: white;  
+    width: 55%;     
+    height: 75px;     
+    padding: 10px 20px;       
+    border: 1px solid #939393; 
+    border-radius: 12px;       
+    cursor: pointer; 
+
+}
+
+.ios h2{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.ios p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+#devFront{
+    display: flex;
+    margin: auto;
+    margin-left: 465px;
+    margin-top: 25px;
+    
+}
+
+.front{
+    color: white;  
+    width: 55%;     
+    height: 75px;     
+    padding: 10px 20px;       
+    border: 1px solid #939393; 
+    border-radius: 12px;       
+    cursor: pointer; 
+
+}
+
+.front h2{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.front p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+#devBack{
+    display: flex;
+    margin: auto;
+    margin-left: 465px;
+    margin-top: 25px;
+    
+}
+
+.back{
+    color: white;  
+    width: 55%;     
+    height: 75px;     
+    padding: 10px 20px;       
+    border: 1px solid #939393; 
+    border-radius: 12px;       
+    cursor: pointer; 
+
+}
+
+.back h2{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.back p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+#curiosidade{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+
+.curiosidadeFinal{
+    margin-top: 40px;
+    background-color: rgb(249, 230, 230);
+    width: 60%;
+    height: 280px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.final1 p{
+    margin-top: 35px;
+    margin-left: 290px;
+    color: rgb(142,36,36);
+    font-size: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+
+}
+
+.final2 p{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 160px;
+    width: 75%;
+    height: auto;
+    text-align: center;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+.imagem{
+    margin-top: 25px;
+    margin-left: 450px;
+}
+
+.nome p{
+    margin-top: 15px;
+    margin-left: 425px;
+    font-size: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+
+}
+
+.profissão p{
+    margin-top: -5px;
+    margin-left: 405px;
+    font-size: 10px;
+    color: rgb(109, 109, 109);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+
+}
+
+#rodape{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 280px;
+    background-color: rgb(214, 228, 223);
+    padding: 20px;
+}
+
+.titulo, .titulo2{
+    margin: 10px auto;
+    margin-top: 50px;
+    
+
+}
+
+
+.titulo p{
+    margin: 0;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+
+}
+
+
+.titulo2 p{
+    margin: 0;
+    margin-top: -35px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.botões{
+    display: inline-block;
+
+}
+
+.campo-input {
+    margin-top: 5px;
+    width: 250px; 
+    padding: 5px; 
+    font-size: 14px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+
+
+
+.Botao2 {
+    margin-top: 5px;
+    background-color: rgb(142,36,36);
+    color: white;
+    font-size: 16px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.infoFinal{
+    margin: 0;
+    margin-top: 25px;
+    color: rgb(109, 109, 109);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Stint Ultra Expanded', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
